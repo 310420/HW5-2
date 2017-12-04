@@ -1,0 +1,4 @@
+﻿  main.c
+c:\users\user\desktop\hw5-2\6.36\project1\project1\main.c(14): warning C4013: 'gets' 未定義; 假設 extern 傳回整數
+  Project1.vcxproj -> C:\Users\User\Desktop\HW5-2\6.36\Project1\Debug\Project1.exe
+  Project1.vcxproj -> C:\Users\User\Desktop\HW5-2\6.36\Project1\Debug\Project1.pdb (Partial PDB)

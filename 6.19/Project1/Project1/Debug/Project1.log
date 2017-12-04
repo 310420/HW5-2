@@ -1,0 +1,6 @@
+﻿  main.c
+c:\users\user\desktop\hw5-2\6.19\project1\project1\main.c(17): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+c:\users\user\desktop\hw5-2\6.19\project1\project1\main.c(10): warning C4047: '正在初始化': 'const int *' 與 'int' 間接取值的層級不同
+c:\users\user\desktop\hw5-2\6.19\project1\project1\main.c(12): warning C4047: '正在初始化': 'const int *' 與 'int' 間接取值的層級不同
+  Project1.vcxproj -> C:\Users\User\Desktop\HW5-2\6.19\Project1\Debug\Project1.exe
+  Project1.vcxproj -> C:\Users\User\Desktop\HW5-2\6.19\Project1\Debug\Project1.pdb (Partial PDB)
