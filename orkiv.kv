@@ -1,0 +1,75 @@
+AccountDetailsForm:
+
+<AccountDetailsForm>:
+
+    anchor_y: "top"
+    machine_box: machine_number
+    first_box: First_input
+    last_box: Last_input
+    response:mylabel
+
+    BoxLayout:
+
+        canvas.before:
+            Color: 
+                rgba: [1,1,1,1]
+            Rectangle:
+                pos: (0,0)
+                size: self.size
+                source: '1366.jpg'
+
+        orientation: "vertical"
+        height: "200dp"
+        size_hint_y: None
+
+        GridLayout:
+            cols: 2
+            row_default_height: "40dp"
+            row_force_default: True
+            spacing: "10dp"
+            padding: "10dp"
+
+
+        Label:
+            text: "Machine Number"
+
+        TextInput:
+            id: machine_number
+            size_hint: 1, 1.3
+            multiline:False
+            write_tab:False
+
+        Label:
+            text: "Download First File's name"
+
+        TextInput:
+            id: First_input
+            size_hint: 1, 1.3
+            multiline:False
+            write_tab:False
+            input_filter:'int'
+
+        Label:
+            text: "Download Last File's name"
+
+        TextInput:
+            id: Last_input
+            size_hint: 1, 1.3
+            multiline:False
+            input_filter:'int'
+
+        Label:
+            id: mylabel
+            text: ""
+        
+
+        
+            
+
+
+    Button:
+
+        size_hint_y: None
+        height: "25dp"
+        text: "Login"
+        on_press: root.login()
